@@ -9,5 +9,5 @@ O objetivo deste teste é utilizar a base de dados do gov.br para um simples cad
 
 ## Como funciona
 
-Utilizando o pacote ``requests`` abrimos uma requisição de token [neste endereço](https://h-apigateway.conectagov.estaleiro.serpro.gov.br/oauth2/jwt-token). Ao obter o token, abrimos uma requisição no endpoint de consulta-cpf disponível [aqui](https://h-apigateway.conectagov.estaleiro.serpro.gov.br/api-cpf-light/v2/consulta/cpf). <br/>
+Utilizando o pacote ``requests`` abrimos uma requisição de solicitação para um token de acesso [neste endereço](https://h-apigateway.conectagov.estaleiro.serpro.gov.br/oauth2/jwt-token). Ao obter o token, abrimos uma requisição no endpoint de consulta-cpf disponível [aqui](https://h-apigateway.conectagov.estaleiro.serpro.gov.br/api-cpf-light/v2/consulta/cpf). <br/>
 O endpoint nos retorna um arquivo .json que será manipulado a fim de só utilzar os atributos que interessam ao cadastro de usuários.
